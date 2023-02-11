@@ -1,13 +1,5 @@
-import processing.core.PApplet;
-
-public class Sketch extends PApplet {
-
-  public void settings() {
-    size(800, 800);
-  }
-
-  public void setup(){
-    
+public void setup(){
+      size(800, 800);
   }
   public void draw(){
     background(0);
@@ -21,4 +13,4 @@ public class Sketch extends PApplet {
       myFractal(x-44,y-44,siz - 40, (int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255)); 
     }
   }
-}
+
